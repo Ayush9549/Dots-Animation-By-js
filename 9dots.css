@@ -1,0 +1,103 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body
+{
+	background: #000;
+
+}
+
+.container
+{
+	width: 70px;
+	height: 70px;
+	background: #212532;
+	transition: all 0.3s;
+	/*transition-delay: 0.8s;*/
+	border-radius: 10px;
+	padding: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+img
+{
+	width: 70%;
+	height: 70%;
+	filter: invert(100%);
+	display: none;
+}
+
+img:hover
+{
+	filter: invert(50%) grayscale(100%) brightness(80%) sepia(300%) hue-rotate(50deg) saturate(500%);
+}
+
+.icon
+{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	transition: all 0.3s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*transition-delay: 0.5s;*/
+}
+
+.icon:nth-child(1)
+{
+	margin-top: -50px;
+}
+
+.icon:nth-child(2)
+{
+	margin-top: -40px;
+	margin-left: 40px;
+}
+.icon:nth-child(3)
+{
+	margin-left: 50px;
+}
+.icon:nth-child(4)
+{
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.icon:nth-child(5)
+{
+	margin-top: 50px;
+}
+.icon:nth-child(6)
+{
+	margin-top: 40px;
+	margin-left: -40px;
+}
+
+.icon:nth-child(7)
+{
+	margin-left: -50px;
+}
+
+.icon:nth-child(8)
+{
+	margin-top: -40px;
+	margin-left: -40px;
+}
